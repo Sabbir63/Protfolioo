@@ -480,6 +480,7 @@ body {
 .item-info h6 {
     font-size: 37px;
     font-family: 'Poppia', shansarif;
+    color: var(--third-color);
 }
 
 .fontend h2 {
@@ -513,6 +514,7 @@ body {
     display: inline-block;
     text-align: center;
     font-size: 46px;
+    color: var(--third-color);
 }
 
 .skills-progress {
@@ -603,6 +605,7 @@ body {
     font-size: 39px;
     text-transform: uppercase;
     padding-top: 55px;
+    color: var(--third-color);
 }
 
 .left-text i {
@@ -675,6 +678,7 @@ body {
     font-size: 39px;
     text-transform: uppercase;
     padding-top: 55px;
+    color: var(--third-color);
 }
 
 .contact i {
@@ -716,6 +720,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    color: var(--third-color);
 }
 
 .social-text {
