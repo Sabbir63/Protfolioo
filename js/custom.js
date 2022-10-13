@@ -11,6 +11,17 @@ $(function () {
         backSpeed: 100,
         loop: true,
 
+    });  
+    /*========= typed =========*/
+    var typed = new Typed('.title', {
+
+        strings: ['Full Stack Developer.',
+
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+
     });
 
     /*========= aos animeted =========*/
@@ -81,12 +92,12 @@ $(function () {
 
         /*========= swiper =========*/
 
-        var swiper = new Swiper('.swiper-container', {
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-        });
+//        var swiper = new Swiper('.swiper-container', {
+//            pagination: {
+//                el: '.swiper-pagination',
+//            },
+//
+//        });
 
         /*===== BACK TO TOP =====*/
 

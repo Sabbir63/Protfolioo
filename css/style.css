@@ -90,7 +90,7 @@ body {
 /*===== NAVBAR =====*/
 
 .navbar {
-    padding: 13px 15px;
+    padding: 0px;
     position: fixed;
     left: 0;
     top: 0;
@@ -260,7 +260,7 @@ body {
     padding: 0;
 }
 
-.navbar .navbar-nav .nav-item:hover > .color_menu {
+.navbar .navbar-nav .nav-item:hover>.color_menu {
     opacity: 1;
     visibility: visible;
 }
@@ -437,12 +437,64 @@ body {
     border: solid 2px var(--color);
 }
 
+/*==================================================*/
+.container__ho {
+    max-width: 992px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.container__ho .box.box2 {
+    background-image: url(../images/hotel.jpg);
+    background-size: cover;
+}
+
+.container__ho .box.box3 {
+    background-image: url(../images/Ecommerce.png);
+    background-size: cover;
+}
+
+.container__ho .box.box4 {
+    background-image: url(../images/Backend.png);
+    background-size: cover;
+}
+
+.grid {
+    padding: 0;
+}
+
+.container__ho .box:hover {
+    background-position: bottom;
+}
+
+.container__ho .box {
+    width: 545px;
+    height: 250px;
+    background: black;
+    background-position: top;
+    transition: ease-in-out 6s;
+    box-shadow: 0 0 16px black;
+}
+
+/*====================================================*/
 /*===== SKILLS =====*/
 
 .item-info h6 {
     font-size: 37px;
     font-family: 'Poppia', shansarif;
+}
+
+.fontend h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: var(--third-color);
+}
+
+.fontend h2 {
+    border-bottom: 2px solid var(--color);
+    width: 70%;
 }
 
 .skill_title {
@@ -509,6 +561,10 @@ body {
     position: relative;
 }
 
+.-slide {
+    position: relative;
+}
+
 .slide-text {
     position: absolute;
     top: 0;
@@ -549,14 +605,6 @@ body {
     font-size: 39px;
     text-transform: uppercase;
     padding-top: 55px;
-}
-
-.left-text p {
-    text-align: center;
-    padding-top: 33px;
-    font-size: 33px;
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
 .left-text i {
@@ -699,10 +747,11 @@ body {
 
 /*===== FOOTER =====*/
 .footer_area {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    /* padding-top: 40px; */
+    /* padding-bottom: 30px; */
     background: var(--sec-color);
     box-shadow: 0px 6px 18px 0px var(--third-color);
+    padding: 25px 0px;
 }
 
 .footer_area .footer_text p {
@@ -710,7 +759,9 @@ body {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0;
 }
+
 
 /*=========================
 back to top
