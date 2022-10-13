@@ -468,12 +468,10 @@ body {
 }
 
 .container__ho .box {
-    width: 545px;
-    height: 250px;
-    background: black;
+    width: 637px;
+    height: 290px;
     background-position: top;
     transition: ease-in-out 6s;
-    box-shadow: 0 0 16px black;
 }
 
 /*====================================================*/
