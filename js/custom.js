@@ -4,14 +4,14 @@ $(function () {
     var typed = new Typed('.type', {
 
         strings: ['Sabbir Hossain.',
-                  'A web designer.',
+            'A web designer.',
 
         ],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true,
 
-    });  
+    });
     /*========= typed =========*/
     var typed = new Typed('.title', {
 
@@ -92,12 +92,12 @@ $(function () {
 
         /*========= swiper =========*/
 
-//        var swiper = new Swiper('.swiper-container', {
-//            pagination: {
-//                el: '.swiper-pagination',
-//            },
-//
-//        });
+        //        var swiper = new Swiper('.swiper-container', {
+        //            pagination: {
+        //                el: '.swiper-pagination',
+        //            },
+        //
+        //        });
 
         /*===== BACK TO TOP =====*/
 
